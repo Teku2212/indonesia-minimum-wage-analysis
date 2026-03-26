@@ -12,11 +12,11 @@ The dataset contains minimum wage records for all Indonesian provinces from 1997
 |--------|-------------|
 | `REGION` | Province name |
 | `YEAR` | Year of the minimum wage record |
-| `SALARY (IDR)` | Minimum wage in Indonesian Rupiah |
+| `SALARY` | Minimum wage in Indonesian Rupiah |
 
 - **Total records:** 983 rows
 - **Provinces covered:** 42 regions
-- **Time span:** 1997–2025 (29 years)
+- **Time span:** 1997–2025 (28 years)
 
 > ⚠️ The raw dataset contained data entry errors (missing digits, extra zeros). All errors were identified and corrected before analysis.
 
@@ -51,28 +51,28 @@ The raw dataset had several issues that were corrected before analysis:
 ### 📈 Page 1 — National Trend
 Displays the national average minimum wage from 1997 to 2025 as a line chart. Notable events such as the **1998 Asian Financial Crisis** and **2020–2021 COVID-19 stagnation** are annotated on the chart.
 
-![National Trend](screenshots/page1_national_trend.png)
+![National Trend](page1_national_trend.png)
 
 ---
 
 ### 🗺️ Page 2 — Provincial Comparison
 Horizontal bar chart comparing minimum wages across all provinces in **2025**. DKI Jakarta leads at **IDR 5.4M**, while Lampung and Kalimantan Barat are among the lowest.
 
-![Provincial Comparison](screenshots/page2_provincial_comparison.png)
+![Provincial Comparison](page2_provincial_comparison.png)
 
 ---
 
 ### 📊 Page 3 — Growth Rate
 Bar chart showing the **minimum wage growth rate (%) per province from 2015 to 2025**. Highlights which regions have seen the most aggressive wage increases over the past decade.
 
-![Growth Rate](screenshots/page3_growth_rate.png)
+![Growth Rate](page3_growth_rate.png)
 
 ---
 
 ### 📉 Page 4 — Wage Gap
 Dual line chart tracking the **highest vs lowest provincial wage** each year from 1997 to 2025. The gap has widened significantly since 2013, reflecting growing regional wage inequality.
 
-![Wage Gap](screenshots/page4_wage_gap.png)
+![Wage Gap](page4_wage_gap.png)
 
 ---
 
@@ -92,25 +92,6 @@ The gap between the highest and lowest provincial wages has grown significantly 
 
 **📌 Java provinces have slower growth rates**
 Despite being the economic center, provinces like Jawa Tengah and DI Yogyakarta show relatively lower growth rates compared to outer island provinces.
-
----
-
-## Repository Structure
-```
-indonesia-minimum-wage-analysis/
-│
-├── data/
-│   └── UMR_Dataset_Clean.xlsx
-│
-├── screenshots/
-│   ├── page1_national_trend.png
-│   ├── page2_provincial_comparison.png
-│   ├── page3_growth_rate.png
-│   └── page4_wage_gap.png
-│
-├── Indonesia Regional Minimum Wage Dashboard (1997–2025).pbix
-└── README.md
-```
 
 ---
 
