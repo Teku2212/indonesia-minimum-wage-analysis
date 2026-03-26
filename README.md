@@ -1,4 +1,4 @@
-# 🇮🇩 Indonesia Regional Minimum Wage Analysis (1997–2025)
+# Indonesia Regional Minimum Wage Analysis (1997–2025)
 
 ## Project Overview
 This project analyzes **28 years of Indonesia's regional minimum wage (UMR/UMP)** data across all provinces. The analysis covers national trends, provincial comparisons, growth rates, and wage inequality over time. An interactive dashboard was built using **Power BI** to visualize key findings.
