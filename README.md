@@ -95,6 +95,7 @@ Despite being the economic center, provinces like Jawa Tengah and DI Yogyakarta 
 
 ## 📋 Recommendations
 Based on the findings from this 28-year analysis, the following recommendations are directed at policymakers, regional governments, and businesses operating in Indonesia.
+
 **1. Revise Wage Setting Formula in Slow-Growth Provinces**
 
 Provinces such as Sulawesi Utara (75.6% growth), Kalimantan Timur (76.7%), and Bengkulu (78.0%) recorded the lowest minimum wage growth from 2015 to 2025, falling significantly below the national average. Regional governments in these areas should review their wage-setting mechanisms to ensure minimum wages keep pace with inflation and cost-of-living increases, preventing workers from experiencing real wage decline over time.
